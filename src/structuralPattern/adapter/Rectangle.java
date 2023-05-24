@@ -1,8 +1,8 @@
 package structuralPattern.adapter;
 
 public interface Rectangle {
-    void setWidth();
-    void setHeight();
-    void getArea();
+    void setWidth(double width);
+    void setHeight(double height);
+    double getArea();
     void getPerimeter();
 }
